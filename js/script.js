@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const getMovieSynopsis = async (movieId) => {
-        const url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${tmdbApiKey}&language=es-MX`;
+        const url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${tmdbApiKey}&language=es-ES`;
         try {
             const response = await fetch(url);
             if (!response.ok) {
